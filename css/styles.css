@@ -1,0 +1,303 @@
+#wholepage {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#balcomLogo {
+    padding-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heroImg {
+    padding-top: 5vh;
+    width: 100vw;
+}
+
+#drinkIt {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: -51vh;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    padding-top: 3vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.mainHeading {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tworow {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-rows: 3vh;
+    justify-content: center;
+    margin-top: -3vh;
+}
+
+#threeCol{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    column-gap: 1vw;
+    text-transform: uppercase;
+    font-size: .9rem;
+}
+
+.phoneNumber {
+    font-weight: 500;
+}
+
+.vLine {
+    opacity: .5;
+    height: 60%;
+    margin-top: 2vh;
+}
+
+#infoStart {
+    text-align: end;
+    padding-top: 3vh;
+}
+
+#infoMid {
+    padding-top: 1vh;
+}
+
+#infoEnd {
+    text-align: start;
+    padding-top: 3vh;
+}
+
+#vinos {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+#vinoTopRow {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.topRowMain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.topRowInfo {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    grid-template-rows: auto auto;
+    line-height: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.infoHeading {
+    padding-top: 4vh;
+}
+
+.bottomInfo {
+    margin-top: -5vh;
+    padding-left: 1vh;
+    padding-right: 1vw;
+}
+
+.textContent {
+    height: 300px;
+    width: 300px;
+}
+
+#vinoMidRow {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.midRowMain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.midRowInfo {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    line-height: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#towerInfo {
+    padding-top: -5vh;
+}
+
+#vinoBtmRow {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.btmRowMain {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.btmRowInfo {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    line-height: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+#marketInfo {
+    padding-top: 5vh;
+}
+
+#storeInfo {
+    padding-top: -10vh;
+}
+
+#socials {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+#contact {
+    justify-content: center;
+    text-align: center;
+}
+
+#address {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#address1 {
+    margin-top: -.5vh;
+}
+
+#policy {
+    display: grid;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#policy a {
+    color: black;
+}
+
+#reserved {
+    display: grid;
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+@media only screen and (max-width: 1200px) {
+    #balcomLogo {
+        padding-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mainHeading {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    #drinkIt {
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        margin-top: -20vh;
+        margin-right: auto;
+        margin-left: auto;
+        z-index: 1;
+        padding-top: 2vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        font-size: 1rem;
+    }
+    .tworow {
+        display: grid;
+        padding-top: 1vh;
+        grid-template-rows: auto auto auto;
+        grid-template-rows: 4vh;
+        justify-content: center;
+        margin-top: -3vh;
+    }
+    #vinos {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 10vh;
+    }
+    #vinoTopRow {
+        grid-template-columns: auto;
+        padding-top: 2vh;
+    }
+    #vinoMidRow {
+        grid-template-columns: auto;
+    }
+    #vinoBtmRow {
+        grid-template-columns: auto;
+        padding-left: .4vw;
+    }
+    .infoHeading {
+        padding-top: 1vh;
+    }
+    
+    .bottomInfo {
+        margin-top: 1vh;
+        padding-left: 1vh;
+        padding-right: 1vw;
+    }
+    #marketInfo {
+        padding-top: .1vh;
+    }
+    
+    #storeInfo {
+        padding-top: -5vh;
+    }
+}
+
+@media only screen and (device-width: 280px) {
+    #threeCol{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 1vw;
+        text-transform: uppercase;
+        font-size: .7rem;
+    }
+}
+
